@@ -21,7 +21,7 @@ Router::get('/', function() use ($twig, $kandis, $topics) {
     $page = [
         "title" => "Alles für alle!",
         "description" => "Der Kanton Zürich vor grossen Herausforderungen, die wir nur gemeinsam meistern können. Deshalb braucht es starke, junge und linke Stimmen, die sich gegen die Bürgerlichen in unserem Kanton wehren.",
-        "OG" => "/img/go/default.png"
+        "OG" => "/img/og/default.png"
     ];
     shuffle($kandis);
     return $twig->render("frontpage.html" , ["page" => $page, "environment" => $_ENV, "kandis" => array_slice($kandis, 0,8), "topics" => $topics]);
