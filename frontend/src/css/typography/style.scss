@@ -1,0 +1,49 @@
+@import "./fonts.scss";
+
+html {
+    font-size: clamp(18px, 1.041vw, 22px);
+    font-family: "ObjectSans", sans-serif;
+    font-weight: 300;
+
+    @media (max-width: 780px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 380px) {
+        font-size: 17px;
+    }
+
+    @media (max-width: 360px) {
+        font-size: 15px;
+    }
+}
+
+p+p {
+    margin-top: 0.5em;
+}
+
+b {
+    font-weight: 500;
+}
+
+.opo-graph {
+    font-family: "Graph", sans-serif;
+    font-weight: 900;
+}
+
+.opo-sans {
+    font-family: "ObjectSans", sans-serif;
+    font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Graph", sans-serif;
+    font-weight: 900;
+    line-height: 0.85;
+    margin-bottom: 0;
+}

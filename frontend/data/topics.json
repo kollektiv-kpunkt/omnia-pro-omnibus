@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Wirtschaft",
+    "subtitle": "Aliquet. Diam. Dui.",
+    "imgs": [
+      "https://unsplash.com/photos/_T9A8yrMqHY/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjcwMTg2NTc4&w=2400",
+      "https://images.unsplash.com/photo-1532221768986-86ff47d87934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+    ]
+  },
+  {
+    "title": "Klima",
+    "subtitle": "Aliquet. Diam. Dui.",
+    "imgs": [
+      "https://images.unsplash.com/photo-1464039397811-476f652a343b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80",
+      "https://images.unsplash.com/photo-1570358934836-6802981e481e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+    ]
+  },
+  {
+    "title": "Bildung",
+    "subtitle": "Aliquet. Diam. Dui.",
+    "imgs": [
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+    ]
+  },
+  {
+    "title": "Feminismus",
+    "subtitle": "Aliquet. Diam. Dui.",
+    "imgs": [
+      "https://images.unsplash.com/photo-1603099099423-2f5118822e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "https://images.unsplash.com/photo-1515191107209-c28698631303?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+    ]
+  },
+  {
+    "title": "Mental Health",
+    "subtitle": "Aliquet. Diam. Dui.",
+    "imgs": [
+      "https://images.unsplash.com/photo-1551847677-dc82d764e1eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    ]
+  }
+]

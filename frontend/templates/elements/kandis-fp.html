@@ -1,0 +1,15 @@
+<div class="opo-kandi-fp-gallery flex flex-wrap">
+    {% set i = 1 %}
+    {% for kandi in kandis %}
+    <a class="opo-kandi-fp" href="/kandi/{{kandi.url}}" id="{{kandi.id}}" data-kandi-iteration="{{i}}">
+        <div class="opo-kandi-inner">
+            <img src="/img/kandis/{{kandi.id}}-small.jpg" loading="lazy">
+        </div>
+    </a>
+    {% set i = i + 1 %}
+    {% endfor %}
+    <div class="opo-kandi-fp-titles text-8xl">
+        <h3 class="opo-kandi-fp-title__1">Unsere Kandis</h3>
+        <h3 class="opo-kandi-fp-title__2">Unsere Kandis</h3>
+    </div>
+</div>

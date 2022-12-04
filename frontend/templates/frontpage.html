@@ -1,0 +1,29 @@
+{{ include ("/elements/header.html") }}
+{{ include ("/elements/heroine.html") }}
+
+{% include ("/elements/spacer.html") with {height: "16rem"} only %}
+
+{% include ("/elements/splash.html") with {
+    title: "Für unsere Zukunft",
+    content: "Non dolor purus amet diam adipiscing libero. Fermentum et diam mauris quam viverra. Eget pellentesque sapien vulputate quis dignissim amet enim odio.",
+} only %}
+
+{% include ("/elements/spacer.html") with {height: "16rem"} only %}
+
+{% include ("/elements/topics.html") %}
+
+{% include ("/elements/spacer.html") with {height: "16rem"} only %}
+
+{% include ("/elements/kandis-fp.html") with {kandis: kandis} only %}
+
+{% include ("/elements/spacer.html") with {height: "16rem"} only %}
+
+{% include ("/elements/splash.html") with {
+    title: "am 12. Februar JUSOs auf Liste 2 Wählen!",
+    content: "Aliquam porttitor venenatis orci interdum blandit aliquam. Duis nulla a eget laoreet orci dapibus vitae. Lorem nunc non consectetur quisque at diam nec lacus. Consectetur augue.",
+} only %}
+
+{% include ("/elements/spacer.html") with {height: "16rem"} only %}
+
+{{ include ("/elements/bg.html") }}
+{{ include ("/elements/footer.html") }}

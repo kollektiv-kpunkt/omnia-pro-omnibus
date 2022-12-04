@@ -1,0 +1,13 @@
+.opo-footerbar-outer {
+
+    .opo-footerbar-inner {
+        @media (max-width: 780px) {
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .opo-footerbar-menu {
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

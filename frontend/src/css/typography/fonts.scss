@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ObjectSans';
+    font-weight: 300;
+    src: url('./fonts/PPObjectSans-Regular.woff2') format('woff2'),
+        url('./fonts/PPObjectSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    font-weight: 300;
+    font-style: italic;
+    src: url('./fonts/PPObjectSans-Slanted.woff2') format('woff2'),
+        url('./fonts/PPObjectSans-Slanted.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    font-weight: 500;
+    src: url('./fonts/PPObjectSans-Bold.woff2') format('woff2'),
+        url('./fonts/PPObjectSans-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    font-weight: 500;
+    font-style: italic;
+    src: url('./fonts/PPObjectSans-BoldSlanted.woff2') format('woff2'),
+        url('./fonts/PPObjectSans-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    font-weight: 900;
+    src: url('./fonts/PPObjectSans-Heavy.woff2') format('woff2'),
+        url('./fonts/PPObjectSans-Heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ObjectSans';
+    font-weight: 900;
+    font-style: italic;
+    src: url('./fonts/PPObjectSans-HeavySlanted.woff2') format('woff2'),
+        url('./fonts/PPObjectSans-HeavySlanted.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Graph';
+    font-weight: 900;
+    src: url('./fonts/graph-black-web.woff2') format('woff2'),
+        url('./fonts/graph-black-web.woff') format('woff');
+}

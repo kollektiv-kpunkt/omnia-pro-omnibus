@@ -1,0 +1,15 @@
+* {
+    flex-shrink: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --opo-accent-color: #CC0000;
+}
+
+#main-content {
+    position: relative;
+}

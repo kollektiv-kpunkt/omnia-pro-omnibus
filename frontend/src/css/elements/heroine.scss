@@ -1,0 +1,89 @@
+.opo-heroine-inner {
+    --heroine-base-fontsize: 13px;
+
+    @media (min-width: 1481px) {
+        --heroine-base-fontsize: 15px;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    @media (min-width: 1920px) {
+        --heroine-base-fontsize: calc(15 / 1920 * 100vw);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .opo-heroine-content {
+        position: relative;
+        max-width: 780px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (max-width: 1480px) {
+            max-width: 680px;
+        }
+
+        @media (min-width: 1920px) {
+            max-width: calc(780 / 1920 * 100vw);
+        }
+    }
+
+    @media (max-width: 780px) {
+        --heroine-base-fontsize: calc(13 / 780 * 100vw);
+    }
+
+    .opo-heroine-titles {
+        h1 {
+            display: flex;
+            flex-direction: column;
+            font-size: calc(var(--heroine-base-fontsize) * 20);
+            line-height: 0.85;
+        }
+
+        &__geruest {
+            span {
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: var(--title-bg-img);
+                color: transparent;
+                background-size: cover;
+                position: relative;
+                z-index: 2;
+                width: fit-content;
+
+                @for $i from 1 through 3 {
+                    &:nth-child(#{$i}) {
+                        --title-bg-img: url("/img/geruest/geruest_#{$i}.png");
+                    }
+                }
+
+                &:nth-child(2) {
+                    margin-left: 10%;
+                }
+
+                &:nth-child(3) {
+                    text-align: end;
+                    align-self: flex-end;
+                    line-height: 0.7;
+                }
+            }
+        }
+
+        &__red {
+            span {
+                margin-top: -0.3em;
+                position: relative;
+                z-index: 1;
+                color: var(--opo-accent-color);
+            }
+        }
+    }
+
+    .opo-heroine-subtitle {
+        position: absolute;
+        right: 0;
+        top: 30%;
+        font-size: calc(var(--heroine-base-fontsize) * 3);
+        line-height: 0.9;
+    }
+}

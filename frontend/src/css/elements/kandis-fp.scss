@@ -1,0 +1,77 @@
+.opo-kandi-fp-gallery {
+    position: relative;
+
+    .opo-kandi-fp {
+        width: 25%;
+        overflow: hidden;
+
+        @media (max-width: 1080px) {
+            width: 33.33333333333333%;
+
+            &[data-kandi-iteration="7"],
+            &[data-kandi-iteration="8"] {
+                display: none;
+            }
+        }
+
+        @media (max-width: 780px) {
+            width: 50%;
+
+            &[data-kandi-iteration="5"],
+            &[data-kandi-iteration="6"] {
+                display: none;
+            }
+        }
+
+        .opo-kandi-inner {
+            padding-bottom: 100%;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter: blur(0) grayscale(100%);
+                transform: scale(1);
+                transition: 0.25s ease filter, 0.25s ease transform;
+
+                &:hover {
+                    filter: blur(0) grayscale(0);
+                    transform: scale(1);
+                }
+            }
+        }
+
+    }
+
+    &:hover {
+        .opo-kandi-fp img {
+            transform: scale(1.1);
+            filter: blur(1rem) grayscale(100%);
+        }
+    }
+
+    .opo-kandi-fp-titles h3 {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+
+        &.opo-kandi-fp-title {
+            &__1 {
+                z-index: 1;
+                color: white;
+                mix-blend-mode: difference;
+            }
+
+            &__2 {
+                z-index: 2;
+                color: var(--opo-accent-color);
+                mix-blend-mode: overlay;
+            }
+        }
+    }
+}

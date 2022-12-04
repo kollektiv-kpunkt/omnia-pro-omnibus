@@ -1,0 +1,17 @@
+{
+  "name": "timothy/omnia-pro-omnibus",
+  "description": "Webpage for the cantonal election campaign of the young socialists in Zurich juso-wahlen.ch.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Timothy Oesch",
+      "email": "timothy@kpunkt.ch"
+    }
+  ],
+  "require": {
+    "pecee/simple-router": "4.3.7.2",
+    "vlucas/phpdotenv": "^5.4",
+    "ramsey/uuid": "^4.4",
+    "twig/twig": "^3.0"
+  }
+}

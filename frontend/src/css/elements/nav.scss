@@ -1,0 +1,38 @@
+.opo-navbar-inner {
+
+    .opo-navbar-logo {
+        span {
+            color: var(--menu-color);
+        }
+
+
+        .opo-navbar-nelke {
+            height: 6rem;
+
+            path {
+                fill: var(--menu-color);
+            }
+        }
+    }
+
+    .opo-navbar-tofu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        row-gap: 0.25rem;
+
+        div {
+            width: 2rem;
+            height: 0.25rem;
+            background-color: var(--menu-color);
+
+            &:nth-child(2) {
+                width: 1.6rem;
+            }
+
+            &:nth-child(3) {
+                width: 1.2rem;
+            }
+        }
+    }
+}
