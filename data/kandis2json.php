@@ -43,6 +43,7 @@ foreach ($csv as $row) :
 
 $kandi = [
     "id" => $row[0],
+    "bisher" => ($row[1] == "Bisher") ? true : false ,
     "url" => str_replace(" ", "-", strtolower($row[2] . "-" . $row[3])),
     "vorname" => $row[2],
     "nachname" => $row[3],

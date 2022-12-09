@@ -1,0 +1,146 @@
+@use "sass:math";
+
+.opo-kandi-gallery-inner {
+    --cols: 4;
+    --gap: 2rem;
+    gap: var(--gap);
+
+    @media (max-width: 1480px) {
+        --gap: 1rem;
+    }
+
+    @media (max-width: 1080px) {
+        --cols: 3;
+    }
+
+    @media (max-width: 780px) {
+        --cols: 2;
+    }
+
+    @media (max-width: 380px) {
+        --cols: 1;
+    }
+
+    &.kandi-open {
+        .opo-kandi-gallery-item-outer .opo-kandi-gallery-item-inner img {
+            transform: scale(1.1);
+            filter: grayscale(100%) blur(1rem);
+            opacity: 0.75;
+        }
+    }
+
+    .opo-kandi-gallery-item-outer {
+        --width: calc((100% - var(--gap) * (var(--cols) - 1)) / var(--cols));
+        width: var(--width);
+
+
+        &.kandi-active {
+            .opo-kandi-gallery-item-inner img {
+                filter: grayscale(0%);
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .opo-kandi-gallery-item-inner {
+            padding-bottom: 100%;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+                filter: grayscale(100%);
+                width: 100%;
+                transition: 0.25s ease filter, 0.25s ease transform, 0.25s ease opacity;
+            }
+        }
+
+        .opo-kandi-gallery-item-details-wrapper {
+            --margin-left: calc((var(--kandi-column) * (var(--gap) + 100%) + var(--container-padding)) * (-1));
+            margin-left: var(--margin-left);
+            width: 100vw;
+
+            max-height: 0;
+            overflow: hidden;
+            transition: 0.25s ease-in-out max-height;
+
+            @for $i from 0 through 30 {
+                $rows: 4;
+
+                &[data-kandi-iter="#{$i}"] {
+                    --kandi-column: calc((#{math.div($i, $rows)} - var(--kandi-row)) * #{$rows});
+                    --kandi-row: #{math.floor(math.div($i, $rows))};
+                }
+
+                @media (max-width: 1080px) {
+                    $rows: 3;
+
+                    &[data-kandi-iter="#{$i}"] {
+                        --kandi-column: calc((#{math.div($i, $rows)} - var(--kandi-row)) * #{$rows});
+                        --kandi-row: #{math.floor(math.div($i, $rows))};
+                    }
+                }
+
+                @media (max-width: 780px) {
+                    $rows: 2;
+
+                    &[data-kandi-iter="#{$i}"] {
+                        --kandi-column: calc((#{math.div($i, $rows)} - var(--kandi-row)) * #{$rows});
+                        --kandi-row: #{math.floor(math.div($i, $rows))};
+                    }
+                }
+
+                @media (max-width: 380px) {
+                    $rows: 1;
+
+                    &[data-kandi-iter="#{$i}"] {
+                        --kandi-column: calc((#{math.div($i, $rows)} - var(--kandi-row)) * #{$rows});
+                        --kandi-row: #{math.floor(math.div($i, $rows))};
+                    }
+                }
+
+            }
+
+            .opo-kandi-gallery-item-details-triangle {
+                --width: calc((100% - var(--gap) * (var(--cols) - 1)) / var(--cols));
+                width: var(--width);
+                display: flex;
+                justify-content: center;
+                --triangle-margin-left: calc((var(--kandi-column)) * (var(--gap) + var(--width)));
+                margin-left: var(--triangle-margin-left);
+
+                svg {
+                    width: 46.6px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            .opo-kandi-gallery-item-details-outer {
+
+                .opo-kandi-some-icons {
+
+                    .opo-kandi-icon {
+                        padding: 0.3rem;
+                        background-color: white;
+                        border-radius: 500px;
+
+                        svg {
+                            color: var(--opo-accent-color);
+                            width: fit-content;
+                            height: 1rem;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}

@@ -1,0 +1,36 @@
+<div class="opo-kandi-gallery-outer relative">
+    <div class="opo-kandi-gallery-inner flex flex-wrap justify-center lg-container">
+        {% set i = 0 %}
+        {% for kandi in kandis %}
+            <div class="opo-kandi-gallery-item-outer" id="{{kandi.id}}" data-slug="{{kandi.url}}">
+                <div class="opo-kandi-gallery-item-inner relative">
+                    <img src="/img/kandis/{{kandi.id}}-small.jpg" alt="{{kandi.vorname}} {{kandi.nachname}}">
+                    {{ (kandi.bisher) ? '<span class="opo-kandi-gallery-item-bisher absolute top-0 left-0 bg-accent text-white px-2 py-1">Bisher</span>' : '' }}
+                </div>
+                <div class="opo-kandi-gallery-item-details-wrapper" data-kandi-iter="{{i}}" data-kandi-id="{{kandi.id}}">
+                    <div class="opo-kandi-gallery-item-details">
+                        <div class="opo-kandi-gallery-item-details-triangle-wrapper lg-container flex">
+                            <div class="opo-kandi-gallery-item-details-triangle h-9 w-12 flex justify-center">
+                                {{ include("/elements/kandi-triangle.svg") }}
+                            </div>
+                        </div>
+                        <div class="opo-kandi-gallery-item-details-outer bg-accent text-white">
+                            <div class="opo-kandi-gallery-item-details-inner lg-container py-12">
+                                <h2 class="text-6xl opo-text-wrapper mb-4">«{{kandi.quote}}»</h2>
+                                <p class="text-4xl opo-text-wrapper mb-4"><b>{{kandi.vorname}} {{kandi.nachname}}</b> ({{kandi.pronomen}})</p>
+                                <p>{{ kandi.beruf }} | {{kandi.wahlkreis}} | Listenplatz {{kandi.listenplatz}}</p>
+                                <div class="opo-kandi-some-icons mt-10 flex gap-x-2">
+                                    {{(kandi.twitter) ? ('<a href="https://twitter.com/' ~ kandi.twitter ~ '" target="_blank" class="opo-kandi-icon"><i data-feather="twitter"></i></a>')|raw : ''}}
+                                    {{(kandi.instagram) ? ('<a href="https://instagram.com/' ~ kandi.instagram ~ '" target="_blank" class="opo-kandi-icon"><i data-feather="instagram"></i></a>')|raw : ''}}
+                                    {{(kandi.facebook) ? ('<a href="https://facebook.com/' ~ kandi.facebook ~ '" target="_blank" class="opo-kandi-icon"><i data-feather="facebook"></i></a>')|raw : ''}}
+                                    {{(kandi.homepage) ? ('<a href="' ~ kandi.website ~ '" target="_blank" class="opo-kandi-icon"><i data-feather="globe"></i></a>')|raw : ''}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% set i = i + 1 %}
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,7 @@
+.opo-spacer {
+    height: var(--opo-spacer-height);
+
+    @media (max-width: 780px) {
+        height: calc(var(--opo-spacer-height) * 0.75);
+    }
+}

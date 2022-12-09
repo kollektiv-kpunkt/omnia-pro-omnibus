@@ -36,9 +36,12 @@
   },
   "homepage": "https://github.com/kollektiv-kpunkt/omnia-pro-omnibus#readme",
   "dependencies": {
+    "@swup/overlay-theme": "^1.1.1",
+    "@swup/preload-plugin": "^1.0.5",
     "feather-icons": "^4.29.0",
     "punycode": "^2.1.1",
     "simple-icons": "^7.21.0",
+    "swup": "^2.0.19",
     "vanilla-cookieconsent": "^2.8.9"
   }
 }

@@ -1,0 +1,15 @@
+{{ include ("/elements/header.html") }}
+
+{% include ("/elements/topic-heroine.html") with {"topic" : topic} only %}
+
+<div class="opo-topic-content-outer">
+    <div class="opo-topic-content-inner sm-container">
+        {{content|raw }}
+    </div>
+</div>
+
+{% include ("/elements/spacer.html") with {height: "6rem"} only %}
+
+{{ include ("/elements/bg.html") }}
+{% include ("/elements/fp-topics.html") %}
+{{ include ("/elements/footer.html") }}

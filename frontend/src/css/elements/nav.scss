@@ -1,37 +1,73 @@
-.opo-navbar-inner {
+.opo-navbar-outer {
+    transform: translateY(0);
+    transition: 0.25s ease transform, 0.25s ease mix-blend-mode;
 
-    .opo-navbar-logo {
-        span {
-            color: var(--menu-color);
-        }
+    @media (max-width: 980px) {
+        --container-padding: 1rem;
+    }
 
+    &.scrollup {
+        transform: translateY(-100%);
+    }
 
-        .opo-navbar-nelke {
-            height: 6rem;
+    &.scrollbar {
+        .opo-navbar-inner .opo-navbar-logo {
+            .opo-navbar-nelke {
+                height: 3rem;
+            }
 
-            path {
-                fill: var(--menu-color);
+            span {
+                font-size: 1.25rem;
             }
         }
     }
 
-    .opo-navbar-tofu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        row-gap: 0.25rem;
+    .opo-navbar-inner {
+        transition: 0.25s ease all;
 
-        div {
-            width: 2rem;
-            height: 0.25rem;
-            background-color: var(--menu-color);
+        .opo-navbar-logo {
+            span {
+                color: var(--menu-color);
+                transition: 0.25s ease font-size;
 
-            &:nth-child(2) {
-                width: 1.6rem;
+                @media (max-width: 480px) {
+                    font-size: 1.5rem;
+                }
             }
 
-            &:nth-child(3) {
-                width: 1.2rem;
+
+            .opo-navbar-nelke {
+                height: 6rem;
+                transition: 0.25s ease height;
+
+                @media (max-width: 480px) {
+                    height: 4rem;
+                }
+
+                path {
+                    fill: var(--menu-color);
+                }
+            }
+        }
+
+        .opo-navbar-tofu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 0.25rem;
+
+            div {
+                width: 2rem;
+                height: 0.25rem;
+                background-color: var(--menu-color);
+
+                &:nth-child(2) {
+                    width: 1.6rem;
+                }
+
+                &:nth-child(3) {
+                    width: 1.2rem;
+                }
             }
         }
     }

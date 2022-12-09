@@ -57,10 +57,17 @@
 
     .opo-kandi-fp-titles h3 {
         position: absolute;
-        top: 2rem;
-        left: 2rem;
+        top: 1.25rem;
+        left: 1.25rem;
 
         &.opo-kandi-fp-title {
+            &__0 {
+                z-index: 1;
+                color: transparent;
+                text-shadow: 0.05em 0.05em var(--opo-accent-color);
+                opacity: 0.75;
+            }
+
             &__1 {
                 z-index: 1;
                 color: white;

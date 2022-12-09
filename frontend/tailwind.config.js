@@ -1,6 +1,6 @@
 module.exports = {
   content: require("fast-glob").sync(["./**/*.html", "*.html"]),
-  safelist: ["opacity-100", "bg-black", "bg-white", "opacity-30"],
+  safelist: ["mix-blend-difference"],
   theme: {
     extend: {
       colors: {

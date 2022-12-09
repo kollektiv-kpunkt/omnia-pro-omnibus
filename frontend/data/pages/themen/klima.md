@@ -1,0 +1,8 @@
+Der massive Ausbau von erneuerbaren Energien sichert die Versorgung. Deshalb müssen zum Beispiel dringend mehr Solarpannels auf die Dächer von Zürich. Die Sanierungswelle darf aber nicht auf Kosten der Mieter:innen durchgeführt werden.
+Auch die aktuell herrschenden Energiekrise darf nicht auf Mieter:innen abgewälzt werden. Eine ausreichende Energieversorgung darf kein Luxus sein! Deshalb fordern wir eine finanzielle Unterstützung für die Energiekosten und so eine günstige Grundbedarfdeckung.
+Auch die Personen, die im Bereich der fossilen Energien arbeiten, dürfen nicht im Stich gelassen werden. Für sie fordern wir Umschulungs- und Ausbildungsprogramme.
+
+Im Kanton Zürich fordern wir einen attraktiven öffentlichen Verkehr, der pendelnden Menschen gratis zusteht. Die Verbund-Abos müssen bezahlbarer und die Preise progressiv gestaltet werden. Ein bezahlbarer öffentlicher Verkehr ermöglicht nicht nur allen Menschen Mobilität, sondern leistet auch einen wichtigen Beitrag zur Abkehr von individualisiertem Autoverkehr, der enorm viele Treibhausgase ausstösst.
+
+Auch in der Bodenpolitik kann und muss der Kanton Zürich seine Verantwortung bezüglich Klimaschutz wahrnehmen. Mit einem Vorverkaufsrecht bekommt der Kanton die Möglichkeit, offensiv Boden zu kaufen und diesen gemeinnützig zu vermieten. Der Platzbedarf gemeinnütziger Wohnungen ist kleiner, dadurch brauchen sie weniger Heizenergie.
+Flächendeckende Fassadenbegrünung leistet einen zusätzlichen ökologischen Beitrag, unter anderem weil Gebäude dann besser isoliert sind und so an Heizkosten gespart werden kann.

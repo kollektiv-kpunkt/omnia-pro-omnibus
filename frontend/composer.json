@@ -12,6 +12,7 @@
     "pecee/simple-router": "4.3.7.2",
     "vlucas/phpdotenv": "^5.4",
     "ramsey/uuid": "^4.4",
-    "twig/twig": "^3.0"
+    "twig/twig": "^3.0",
+    "erusev/parsedown": "^1.7"
   }
 }

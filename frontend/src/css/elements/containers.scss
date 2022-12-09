@@ -10,7 +10,7 @@
     }
 
     @media (max-width: 480px) {
-        --container-padding: 1.5rem;
+        --container-padding: 1rem;
     }
 }
 
@@ -18,4 +18,8 @@
 .sm-container {
     width: 100%;
     max-width: calc(950px + 2 * var(--container-padding));
+}
+
+.opo-text-wrapper {
+    max-width: max(1356px, calc(50vw + calc(950px - 2 * var(--container-padding)) / 2));
 }

@@ -1,42 +1,52 @@
-[
-  {
+{
+  "wirtschaft": {
     "title": "Wirtschaft",
-    "subtitle": "Aliquet. Diam. Dui.",
+    "subtitle": "Verteilungsgerechtigkeit. 25h Woche. Mindestlohn.",
+    "description": "Lorem ipsum dolor sit amet. Nid quoqui solem, mad atem init.",
+    "lead": "«Die Reichen werden reicher, die Armen zahlreicher.» Was wir als Linke seit Jahren wieder und wieder erwähnen, zeigt sich in der aktuellen Situation einmal mehr. Während der Grossteil der Bevölkerung unter steigenden Krankenkassenprämien, steigenden Nebenkosten und einer erhöhten Inflation zu kämpfen haben, herrscht bei den Reichen aufgrund zu hoher Nachfrage Champagner-Knappheit. Für uns als JUSO ist daher klar, dass wir für eine konsequente Verteilungsgerechtigkeit an beiden Enden der Skala ansetzen müssen.",
     "imgs": [
       "https://unsplash.com/photos/_T9A8yrMqHY/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjcwMTg2NTc4&w=2400",
       "https://images.unsplash.com/photo-1532221768986-86ff47d87934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
     ]
   },
-  {
+  "klima": {
     "title": "Klima",
-    "subtitle": "Aliquet. Diam. Dui.",
+    "subtitle": "Unsere Zukunft statt ihre Profite.",
+    "description": "Lorem ipsum dolor sit amet. Nid quoqui solem, mad atem init.",
+    "lead": "Die Erde brennt. Und die Regierungen dieser Welt schauen ohne schlechtes Gewissen weg und fahren unseren Planeten fahrlässig gegen die Wand. So auch im Kanton Zürich. Netto Null 2050 reicht einfach nicht. Das sehen wir alleine schon an den verheerenden Hitzewellen, unter anderem in Europa, Flutkatastrophen und Stürmen, die heute bereits Realität sind. Darum fordern wir konsequent Netto Null bis 2030, sowie den erforderlichen Ausbau erneuerbarer Energien mit sozialverträglichen Massnahmen. Der ÖV muss für alle zugänglich sein und mit einer radikalen Bodenpolitik sorgen wir dafür, dass alle Menschen eine bezahlbare Wohnung zur Verfügung haben. Für unsere Zukunft statt für ihre Profite!",
     "imgs": [
       "https://images.unsplash.com/photo-1464039397811-476f652a343b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80",
       "https://images.unsplash.com/photo-1570358934836-6802981e481e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
     ]
   },
-  {
+  "bildung": {
     "title": "Bildung",
-    "subtitle": "Aliquet. Diam. Dui.",
+    "subtitle": "Chancengerechtigkeit. Bildung für alle.",
+    "description": "Lorem ipsum dolor sit amet. Nid quoqui solem, mad atem init.",
+    "lead": "Bildung muss für alle Menschen zugänglich sein! Wir von der JUSO fordern komplette Barrierefreiheit für Menschen mit Behinderungen und Einschränkungen. Schulen sind in der Verantwortung allen Schüler*innen den Schulalltag barrierefrei zu ermöglichen. Dazu gehört auch kompetente psychologische Unterstützung und Sozialarbeit. Ausserdem muss der Zugang zu Bildung für Geflüchtete und junge Erwachsene vereinfacht und gefördert werden.",
     "imgs": [
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
     ]
   },
-  {
+  "feminismus": {
     "title": "Feminismus",
-    "subtitle": "Aliquet. Diam. Dui.",
+    "subtitle": "Das Patriarchat zerschmettern.",
+    "description": "Lorem ipsum dolor sit amet. Nid quoqui solem, mad atem init.",
+    "lead": "Die JUSO setzt sich konsequent queerfeministisch ein! Jahr für Jahr sind wir mit dem feministischen Streik auf der Strasse, doch verbessert hat sich wenig. Wir leben in einer Welt von Männern für Männer. Das Patriarchat zieht sich durch alle Lebensbereiche: sexualisierte Gewalt, fehlende Selbstbestimmung, Lohnungleichheit, Doppelbelastung durch unbezahlte Care-Arbeit, absolut unzureichende Aufklärung, Bildung und Beratung. Wir fordern, die Lebenssituation von FLINTAQ* Personen unverzüglich zu verbessern!",
     "imgs": [
       "https://images.unsplash.com/photo-1603099099423-2f5118822e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
       "https://images.unsplash.com/photo-1515191107209-c28698631303?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
     ]
   },
-  {
+  "mental-health": {
     "title": "Mental Health",
-    "subtitle": "Aliquet. Diam. Dui.",
+    "subtitle": "Mehr Ressourcen. Ursachenbekämpfung.",
+    "description": "Lorem ipsum dolor sit amet. Nid quoqui solem, mad atem init.",
+    "lead": "Psychische Gesundheit darf kein Privileg sein! Es braucht mehr Ressourcen, um die psychische Gesundheit von Jugendlichen und jungen Erwachsenen zu gewährleisten. Immer mehr junge Menschen leiden unter psychischen Krankheiten und die Verantwortlichen schauen weg. Wartezeiten für eine notwendige und wichtige Behandlung sind monatelang, während Ursachen wie enormer Leistungsdruck nicht bekämpft werden. Für uns ist klar: Der Kanton Zürich muss einen Krisenplan erarbeiten, wie er diesen Gesundheitsnotstand löst.",
     "imgs": [
       "https://images.unsplash.com/photo-1551847677-dc82d764e1eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
       "https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
     ]
   }
-]
+}

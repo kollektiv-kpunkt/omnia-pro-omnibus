@@ -26,14 +26,15 @@
     <link rel="shortcut icon" href="/img/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#28eb64">
     <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#28eb64">
+    <meta name="theme-color" content="#CC0000">
     <link rel="stylesheet" href="/dist/bundle.min.css?v={{environment.version}}">
 </head>
 
 <body>
-    {% include ("/elements/navbar.html") with {
-        "element": {
-            "menu_color": page.menu_color|default("var(--opo-accent-color)")
-        }
-    } only %}
-    <div id="main-content">
+    <main id="opo-page-container">
+        {% include ("/elements/navbar.html") with {
+            "element": {
+                "menu_color": page.menu_color|default("var(--opo-accent-color)")
+            }
+        } only %}
+        <div id="main-content" class="transition-fade">

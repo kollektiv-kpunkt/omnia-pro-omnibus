@@ -1,6 +1,7 @@
 [
     {
         "id": "4b903253-6801-4980-ba48-8b93331c8d60",
+        "bisher": false,
         "url": "jonathan-daum",
         "vorname": "Jonathan",
         "nachname": "Daum",
@@ -23,6 +24,7 @@
     },
     {
         "id": "d54ed7c0-573f-4598-8aff-76cb9affc3e8",
+        "bisher": false,
         "url": "alexander-robert-herren",
         "vorname": "Alexander Robert",
         "nachname": "Herren",
@@ -45,6 +47,7 @@
     },
     {
         "id": "b1816939-3978-4731-b8aa-d86f428a2bb9",
+        "bisher": false,
         "url": "fabien-forestier",
         "vorname": "Fabien",
         "nachname": "Forestier",
@@ -67,6 +70,7 @@
     },
     {
         "id": "f847fdf5-8667-47b1-bd8a-61ec7588d6bf",
+        "bisher": false,
         "url": "simon-jacob",
         "vorname": "Simon",
         "nachname": "Jacob",
@@ -89,6 +93,7 @@
     },
     {
         "id": "bd3765d7-77ec-4071-b580-e8d54ff49ce5",
+        "bisher": false,
         "url": "corina-jeanmaire",
         "vorname": "Corina",
         "nachname": "Jeanmaire",
@@ -111,6 +116,7 @@
     },
     {
         "id": "26459364-d006-43e5-9a23-5e49234657db",
+        "bisher": false,
         "url": "efe-oktay-yildiz",
         "vorname": "Efe Oktay",
         "nachname": "Yildiz",
@@ -133,6 +139,7 @@
     },
     {
         "id": "0d111163-9944-4c87-8327-967723adc46c",
+        "bisher": false,
         "url": "gian-lusti",
         "vorname": "Gian",
         "nachname": "Lusti",
@@ -155,6 +162,7 @@
     },
     {
         "id": "96ab7bd5-2f0f-476a-9ed9-fd4809758577",
+        "bisher": false,
         "url": "lisa-schweizer",
         "vorname": "Lisa",
         "nachname": "Schweizer",
@@ -177,6 +185,7 @@
     },
     {
         "id": "f9bbe238-6283-49ec-b0da-43c8e27dbc6c",
+        "bisher": false,
         "url": "anja-gada",
         "vorname": "Anja",
         "nachname": "Gada",
@@ -199,6 +208,7 @@
     },
     {
         "id": "30803c60-23e1-479a-866c-eb4064c3129d",
+        "bisher": false,
         "url": "valeria-muster",
         "vorname": "Valeria",
         "nachname": "Muster",
@@ -221,6 +231,7 @@
     },
     {
         "id": "1bf71e29-2f4b-45e9-a57b-7ad5c8b39996",
+        "bisher": true,
         "url": "nicola-siegrist",
         "vorname": "Nicola",
         "nachname": "Siegrist",
@@ -243,6 +254,7 @@
     },
     {
         "id": "894c24d4-405c-4d69-a065-c773f8611b5a",
+        "bisher": false,
         "url": "julia-iten",
         "vorname": "Julia",
         "nachname": "Iten",
@@ -265,6 +277,7 @@
     },
     {
         "id": "272dd58a-c582-4fe2-af78-dd6dcb5372a8",
+        "bisher": true,
         "url": "hannah-pfalzgraf",
         "vorname": "Hannah",
         "nachname": "Pfalzgraf",
@@ -287,6 +300,7 @@
     },
     {
         "id": "ad5d43cc-3334-4e46-a214-4024a94653c3",
+        "bisher": false,
         "url": "jo\u00eblle-j\u00e4ger",
         "vorname": "Jo\u00eblle",
         "nachname": "J\u00e4ger",
@@ -309,6 +323,7 @@
     },
     {
         "id": "203c6d43-921c-4362-8e6b-a7f0b1d093b1",
+        "bisher": false,
         "url": "myrta-grubenmann",
         "vorname": "Myrta",
         "nachname": "Grubenmann",
@@ -331,6 +346,7 @@
     },
     {
         "id": "e12b85e4-0356-40d2-9845-cfb590580f65",
+        "bisher": false,
         "url": "silas-muggli",
         "vorname": "Silas",
         "nachname": "Muggli",
@@ -353,6 +369,7 @@
     },
     {
         "id": "cbaf7f5a-39b2-43af-b3fe-38707d5d514f",
+        "bisher": false,
         "url": "allan-boss",
         "vorname": "Allan",
         "nachname": "Boss",
@@ -375,6 +392,7 @@
     },
     {
         "id": "1f93dcab-2e73-4a8c-879b-6dca614db998",
+        "bisher": false,
         "url": "leonardo-bosshard",
         "vorname": "Leonardo",
         "nachname": "Bosshard",
@@ -397,6 +415,7 @@
     },
     {
         "id": "d874f0a3-afff-4d54-a6ab-ceb2e0a5982b",
+        "bisher": true,
         "url": "leandra-columberg",
         "vorname": "Leandra",
         "nachname": "Columberg",
@@ -419,6 +438,7 @@
     },
     {
         "id": "cecc2c8d-7ea9-4915-b746-2c8ca6d8884c",
+        "bisher": false,
         "url": "chiara-rachele-bono",
         "vorname": "Chiara Rachele",
         "nachname": "Bono",
