@@ -1,0 +1,14 @@
+{{ include ("/elements/header.html") }}
+{% include ("/elements/page-heroine.html") with {
+"page" : {
+"title" : "Für einen konsequent linken Kanton",
+"lead" : "Es brennt an so Ecken in unserem Kanton. Unser Programm will diese Probleme angehen und Lösungen vorschlagen, damit Zürich zu einem Zuhause für alle wird.",
+},
+"spacer_height" : "4rem"
+} only %}
+
+{{ include ("/elements/topics-preview.html") }}
+
+{% include ("/elements/spacer.html") with {height: "6rem"} only %}
+{{ include ("/elements/bg.html") }}
+{{ include ("/elements/footer.html") }}

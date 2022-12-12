@@ -1,6 +1,7 @@
-if (document.querySelector(".opo-kandi-gallery-item-outer")) {
-  document.querySelectorAll(".opo-kandi-gallery-item-outer").forEach((item) => {
+if (document.querySelector(".opo-kandi-gallery-item-inner img")) {
+  document.querySelectorAll(".opo-kandi-gallery-item-inner img").forEach((item) => {
     item.addEventListener("click", () => {
+      item = item.closest(".opo-kandi-gallery-item-outer");
       const kandiID = item.id;
       console.log(kandiID);
       if (item.classList.contains("kandi-active")) {
@@ -56,5 +57,8 @@ function closeText(kandiID) {
 
 const params = new URLSearchParams(window.location.search);
 const kandiSlug = params.get("kandi");
-const kandiID = document.querySelector(`[data-slug="${kandiSlug}"]`).id;
-document.getElementById(kandiID).click();
+console.log(kandiSlug);
+if (kandiSlug) {
+  const kandiID = document.querySelector(`[data-slug="${kandiSlug}"]`).id;
+  document.getElementById(kandiID).querySelector(".opo-kandi-gallery-item-inner img").click();
+}

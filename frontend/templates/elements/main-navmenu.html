@@ -1,0 +1,33 @@
+{%
+set menuItems = {
+"main" : {
+"/themen" : "Unsere Themen",
+"/kandis" : "Unsere Kandis"
+},
+"cta" : {
+"/spenden" : "Spenden",
+"/material-bestellen" : "Material Bestellen",
+"https://juso.org/mitglied-werden/" : "Mitglied werden"
+}
+}
+%}
+
+<div class="opo-mainnav-wrapper fixed top-0 right-0 w-1/2 h-screen bg-accent -z-10">
+    <div class="opo-mainnav-outer flex w-full h-full p-10 flex-col gap-y-10 overflow-y-scroll">
+        <div class="opo-mainnav-top-wrapper text-white flex flex-col gap-6 pt-24">
+            {% for key, item in menuItems.main %}
+            <div class="opo-mainnav-top-item">
+                <a href="{{key}}" class="opo-mainnav-top-link opo-graph text-8xl">{{item}}</a>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="opo-mainnav-cta-wrapper flex flex-wrap gap-4">
+            {% for key, item in menuItems.cta %}
+            <a href="{{key}}"
+                class="opo-mainnav-cta-item p-4 bg-white text-accent text-2xl keep-fontsize opo-graph w-full text-center cursor-pointer">
+                <p class="font-bold">{{item}}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

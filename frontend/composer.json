@@ -13,6 +13,7 @@
     "vlucas/phpdotenv": "^5.4",
     "ramsey/uuid": "^4.4",
     "twig/twig": "^3.0",
-    "erusev/parsedown": "^1.7"
+    "erusev/parsedown": "^1.7",
+    "jaybizzle/crawler-detect": "^1.2"
   }
 }

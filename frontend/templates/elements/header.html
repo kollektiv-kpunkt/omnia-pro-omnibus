@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
     <title>{{page.title}} | JUSOs in den Kantonsrat wählen!</title>
     <meta name="title" content="{{page.title}}">
     <meta name="description" content="{{page.description}}">
@@ -33,8 +33,8 @@
 <body>
     <main id="opo-page-container">
         {% include ("/elements/navbar.html") with {
-            "element": {
-                "menu_color": page.menu_color|default("var(--opo-accent-color)")
-            }
+        "element": {
+        "menu_color": page.menu_color|default("var(--opo-accent-color)")
+        }
         } only %}
-        <div id="main-content" class="transition-fade">
+        <div id="main-content">

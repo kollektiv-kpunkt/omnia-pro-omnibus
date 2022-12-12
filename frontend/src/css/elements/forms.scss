@@ -1,0 +1,78 @@
+@import "../../../lib/font-awesome/css/font-awesome.min.scss";
+
+.opo-webhookform-step {
+    &:not([hidden]) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    .opo-webhookform-form {
+        width: 100%;
+    }
+}
+
+.opo-input-wrapper {
+    width: calc(50% - 0.75rem);
+}
+
+.opo-input-wrapper.fullwidth {
+    width: 100%;
+}
+
+.opo-input-wrapper label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    color: var(--form-color, var(--opo-accent-color));
+}
+
+.opo-input-wrapper {
+    &.uuid {
+        display: none;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 3px solid var(--form-color, var(--opo-accent-color));
+        background-color: transparent;
+        padding: 0.5em 0;
+        outline: none;
+        color: var(--form-color, var(--opo-accent-color));
+    }
+
+    button {
+        margin-left: auto;
+        margin-right: 0;
+        font-size: 1.25rem;
+    }
+}
+
+.opo-input-wrapper.checkbox {
+    display: flex;
+}
+
+.opo-input-wrapper.checkbox label {
+    width: 100%;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.opo-input-wrapper.checkbox input[type="checkbox"]+label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f0c8";
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.opo-input-wrapper.checkbox input[type="checkbox"]:checked+label:before {
+    content: "\f14a";
+}
+
+.opo-input-wrapper.checkbox label.font-bold {
+    font-weight: bold;
+}

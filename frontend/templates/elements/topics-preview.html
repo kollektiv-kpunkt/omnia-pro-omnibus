@@ -1,0 +1,21 @@
+<div class="opo-topics-excerpts-wrapper lg-container">
+    <div class="opo-topics-excerpts-outer opo-text-wrapper-sm">
+        {# <div class="opo-topipcs-lead font-medium">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus adipisci quas labore corporis.
+                Officiis maxime
+                sit corporis ipsum esse atque officia odit. Aspernatur, incidunt! Corrupti aut quas culpa laudantium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus adipisci quas labore corporis.
+                Officiis maxime
+                sit corporis ipsum esse atque officia odit. Aspernatur, incidunt! Corrupti aut quas culpa laudantium.
+            </p>
+        </div> #}
+        {% for key,topic in topics %}
+
+        {% include ("/elements/topics-excerpt.html") with {"topic" : topic, "key" : key} only %}
+
+        {% endfor %}
+    </div>
+</div>

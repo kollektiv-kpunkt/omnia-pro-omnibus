@@ -18,8 +18,41 @@ html {
     }
 }
 
-p+p {
-    margin-top: 0.5em;
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.75rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 1.7rem;
+}
+
+p {
+
+    +p,
+    +h1,
+    +h2,
+    +h3,
+    +h4,
+    +h5,
+    +h6 {
+        margin-top: 1em;
+    }
 }
 
 b {
@@ -46,6 +79,19 @@ h6 {
     font-weight: 900;
     line-height: 0.85;
     margin-bottom: 0;
+    margin-bottom: 0.5em;
+}
+
+
+ul:not(.opo-nolist) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    list-style: disc;
+    padding-left: 1rem;
+
+    li+li {
+        margin-top: 0.5rem;
+    }
 }
 
 /* Fixes */

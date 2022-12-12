@@ -1,0 +1,19 @@
+{{ include ("/elements/header.html") }}
+{% include ("/elements/page-heroine.html") with {
+"page" : {
+"title" : "Bestell unser Material!",
+"lead" : "Hier kannst du dir unser Material. Wir freuen uns, wenn du es verteilst und dich damit für einen
+fortschrittlichen Kanton einsetzt.",
+},
+"spacer_height" : "4rem"
+} only %}
+
+<div class="opo-form-wrapper lg-container">
+    <div class="opo-form opo-text-wrapper-sm">
+        {{form|raw}}
+    </div>
+</div>
+
+{% include ("/elements/spacer.html") with {height: "6rem"} only %}
+{{ include ("/elements/bg.html") }}
+{{ include ("/elements/footer.html") }}

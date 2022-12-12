@@ -75,6 +75,10 @@
                 position: relative;
                 z-index: 1;
                 color: var(--opo-accent-color);
+
+                @media (max-aspect-ratio: 1/1) {
+                    margin-top: -0.1em;
+                }
             }
         }
     }

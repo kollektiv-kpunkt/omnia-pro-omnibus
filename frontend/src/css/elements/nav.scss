@@ -60,6 +60,7 @@
                 width: 2rem;
                 height: 0.25rem;
                 background-color: var(--menu-color);
+                transition: 0.25s ease-in-out background-color, 0.25s ease-in-out width, 0.25s ease-in-out transform, 0.25s ease-in-out opacity;
 
                 &:nth-child(2) {
                     width: 1.6rem;

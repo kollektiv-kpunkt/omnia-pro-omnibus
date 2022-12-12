@@ -60,6 +60,10 @@
         top: 1.25rem;
         left: 1.25rem;
 
+        @media (max-width: 780px) {
+            font-size: 3rem;
+        }
+
         &.opo-kandi-fp-title {
             &__0 {
                 z-index: 1;

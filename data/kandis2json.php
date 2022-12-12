@@ -72,8 +72,12 @@ if (file_exists(__DIR__ . "/../frontend/public/img/kandis/" . strtolower($kandi[
 }
 $kandi["bild"] = $kandi["id"] . ".jpg";
 
-$kandis[] = $kandi;
-
+$kandis[$kandi["url"]] = $kandi;
 endforeach;
 
-file_put_contents(__DIR__ . "/kandis.json", json_encode($kandis, JSON_PRETTY_PRINT));
+// // var_dump($kandis);
+// echo(json_encode($kandis, JSON_PRETTY_PRINT));
+// exit;
+
+
+// file_put_contents(__DIR__ . "/kandis.json", json_encode($kandis, JSON_PRETTY_PRINT));

@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root {
@@ -12,4 +13,5 @@ html {
 
 #main-content {
     position: relative;
+    min-height: calc(100vh - 2rem);
 }

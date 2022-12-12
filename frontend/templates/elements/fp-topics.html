@@ -1,13 +1,16 @@
+{% set path = url|split('/')|last %}
+
 <div class="opo-topics-wrapper bg-accent">
     <div class="opo-topics-outer lg-container text-white py-12">
-        <h3 class="text-8xl">Unsere Themen</h3>
+        <h3 class="text-8xl mb-0">Unsere Themen</h3>
         <div class="opo-topics-gallery mt-8 flex flex-wrap gap-8 justify-center">
-            {% for topic in topics %}
-            <a class="opo-topic" href="/themen/{{topic.title|lower|replace({" ": "-"})}}" data-swup-preload>
+            {% for key,topic in topics %}
+            <a class="opo-topic{{ (path == key) ? " opacity-25 cursor-default" : "" }}" href="/themen/{{key}}"
+                data-swup-preload>
                 <div class="opo-topic-inner">
                     <div class="opo-topic-content">
-                        <div class="opo-topic-content__elements">
-                            <h4 class="opo-topic-title text-5xl">
+                        <div class="opo-topic-content__elements w-full">
+                            <h4 class="opo-topic-title text-5xl mb-0">
                                 {{topic.title}}
                             </h4>
                             <p class="opo-topic-subtitle">
@@ -17,11 +20,12 @@
                     </div>
                     {% set i = 1 %}
                     {% for img in topic.imgs %}
-                        <img src="{{img}}" class="opo-topic-img opo-topic-img__{{i}}" alt="" loading="lazy">
+                    <img src="{{img}}" class="opo-topic-img opo-topic-img__{{i}}"
+                        alt="Thema: {{topic.title}}, {{topic.subtitle}}" loading="lazy">
                     {% set i = i + 1 %}
                     {% endfor %}
                     {% for i in range(1, 3) %}
-                        <div class="opo-topic-blind__{{i}}"></div>
+                    <div class="opo-topic-blind__{{i}}"></div>
                     {% endfor %}
                 </div>
             </a>

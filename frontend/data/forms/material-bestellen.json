@@ -1,0 +1,101 @@
+{
+    "wh-url": "https://n8n.victorinus.ch/webhook/7a714074-1a86-414a-8e84-63702bf53b92",
+    "wh-method": "POST",
+    "wh-tag": "materialbestellung",
+    "steps": {
+        "1": {
+            "type": "form",
+            "fields": {
+                "uuid": {
+                    "type": "uuid"
+                },
+                "no_poster": {
+                    "type": "number",
+                    "label": "Anzahl Plakate (A3)",
+                    "required": false,
+                    "value": 0
+                },
+                "no_sticker": {
+                    "type": "number",
+                    "label": "Anzahl Sticker",
+                    "required": false,
+                    "value": 0
+                },
+                "no_flyer": {
+                    "type": "number",
+                    "label": "Anzahl Flyer",
+                    "required": false,
+                    "value": 0
+                },
+                "submit": {
+                    "type": "submit",
+                    "text": "Weiter",
+                    "fullwidth": true
+                }
+            }
+        },
+        "2": {
+            "type": "form",
+            "fields": {
+                "fname": {
+                    "type": "text",
+                    "label": "Vorname",
+                    "required": true
+                },
+                "lname": {
+                    "type": "text",
+                    "label": "Nachname",
+                    "required": true
+                },
+                "submit": {
+                    "type": "submit",
+                    "text": "Weiter",
+                    "fullwidth": true
+                }
+            }
+        },
+        "3": {
+            "type": "form",
+            "fields": {
+                "email": {
+                    "type": "email",
+                    "label": "E-Mail Adresse",
+                    "required": true,
+                    "fullwidth": true
+                },
+                "address": {
+                    "type": "text",
+                    "label": "Strasse / Nr.",
+                    "required": true,
+                    "fullwidth": true
+                },
+                "zip": {
+                    "type": "text",
+                    "label": "PLZ",
+                    "required": true
+                },
+                "city": {
+                    "type": "text",
+                    "label": "Ort",
+                    "required": true
+                },
+                "phone": {
+                    "type": "text",
+                    "label": "Telefonnummer",
+                    "required": false,
+                    "placeholder": "(optional)",
+                    "fullwidth": true
+                },
+                "submit": {
+                    "type": "submit",
+                    "text": "Abschicken",
+                    "fullwidth": true
+                }
+            }
+        }
+    },
+    "thanksInterface": {
+        "type": "text",
+        "text": "Vielen Dank für deine Bestellung!"
+    }
+}

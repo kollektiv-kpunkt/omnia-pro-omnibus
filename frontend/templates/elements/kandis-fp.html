@@ -1,16 +1,18 @@
 <div class="opo-kandi-fp-gallery flex flex-wrap">
     {% set i = 1 %}
     {% for kandi in kandis %}
-    <a class="opo-kandi-fp" href="/kandis/?kandi={{kandi.url}}" id="{{kandi.id}}" data-kandi-iteration="{{i}}" data-swup-preload>
+    <a class="opo-kandi-fp" href="/kandis/?kandi={{kandi.url}}" id="{{kandi.id}}" data-kandi-iteration="{{i}}"
+        data-swup-preload>
         <div class="opo-kandi-inner">
-            <img src="/img/kandis/{{kandi.id}}-small.jpg" loading="lazy">
+            <img src="/img/kandis/{{kandi.id}}-small.jpg" loading="lazy"
+                alt="{{kandi.vorname}} {{kandi.nachname}}: Kanmdidat:in für den Wahlkreis '{{kandi.wahlkreis}}'">
         </div>
     </a>
     {% set i = i + 1 %}
     {% endfor %}
-    <div class="opo-kandi-fp-titles text-8xl">
-        <h3 class="opo-kandi-fp-title__0">Unsere Kandis</h3>
-        <h3 class="opo-kandi-fp-title__1">Unsere Kandis</h3>
-        <h3 class="opo-kandi-fp-title__2">Unsere Kandis</h3>
+    <div class="opo-kandi-fp-titles">
+        <h3 class="opo-kandi-fp-title__0 text-8xl">Unsere Kandis</h3>
+        <h3 class="opo-kandi-fp-title__1 text-8xl">Unsere Kandis</h3>
+        <h3 class="opo-kandi-fp-title__2 text-8xl">Unsere Kandis</h3>
     </div>
 </div>

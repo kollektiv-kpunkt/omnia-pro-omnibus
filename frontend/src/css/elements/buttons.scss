@@ -1,0 +1,60 @@
+.opo-button {
+    padding: 0.5em 0.5em;
+    border: 0.2em var(--bordercolor) solid;
+    display: inline-block;
+    background-color: var(--backgroundcolor);
+    color: var(--textcolor);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.8;
+    font-family: "Graph";
+    font-size: 1.25em;
+    text-decoration: none;
+
+    --bordercolor: var(--opo-accent-color);
+    --backgroundcolor: var(--opo-accent-color);
+    --textcolor: white;
+
+    transition: 0.125s ease filter, 0.125s ease opacity;
+
+    &.opo-button-neg {
+        --bordercolor: white;
+        --backgroundcolor: white;
+        --textcolor: var(--opo-accent-color);
+    }
+
+    &.opo-button-line {
+        --backgroundcolor: transparent;
+        --textcolor: var(--bordercolor);
+    }
+
+    &.opo-button-line-fill {
+        --bordercolor: var(--textcolor);
+    }
+
+    a {
+        background-image: none;
+
+        &:hover {
+            color: var(--textcolor);
+        }
+    }
+}
+
+.opo-button:hover {
+    filter: brightness(1.15) opacity(0.75);
+}
+
+.opo-button.opo-button-next::after {
+    content: "\203a";
+    font-size: 2em;
+    line-height: 0;
+    margin-left: 0.2em;
+    display: inline-block;
+    transition: 0.125s ease transform;
+    transform: translateY(0.2em);
+}
+
+.opo-button.opo-button-next:hover::after {
+    transform: translateY(0.2em) translateX(0.15em);
+}

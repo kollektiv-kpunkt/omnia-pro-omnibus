@@ -1,0 +1,19 @@
+{{ include ("/elements/header.html") }}
+{% include ("/elements/page-heroine.html") with {
+"page" : {
+"title" : page.title
+},
+"spacer_height" : "4rem"
+} only %}
+
+<div class="opo-default-page-wrapper lg-container">
+    <div class="opo-text-wrapper-sm">
+        {{ content|raw }}
+    </div>
+</div>
+
+{% include ("/elements/spacer.html") with {height: "6rem"} only %}
+
+{{ include ("/elements/bg.html") }}
+{% include ("/elements/fp-topics.html") %}
+{{ include ("/elements/footer.html") }}

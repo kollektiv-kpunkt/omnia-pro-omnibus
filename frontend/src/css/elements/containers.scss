@@ -23,3 +23,8 @@
 .opo-text-wrapper {
     max-width: max(1356px, calc(50vw + calc(950px - 2 * var(--container-padding)) / 2));
 }
+
+.opo-text-wrapper-sm {
+    width: 100%;
+    max-width: calc(950px + 2 * var(--container-padding));
+}
