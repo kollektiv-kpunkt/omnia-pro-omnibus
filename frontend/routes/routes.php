@@ -16,6 +16,7 @@ use Pecee\SimpleRouter\SimpleRouter as Router;
 
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 $detect = new CrawlerDetect;
+$host = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER["HTTP_HOST"];
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 
 $kandis = json_decode(file_get_contents(__DIR__ . "/../data/kandis.json"), true);
@@ -70,13 +71,13 @@ Router::get('/themen', function() use ($twig, $topics) {
     return $twig->render("themen.html" , ["page" => $page, "environment" => $_ENV, "topics" => $topics]);
 });
 
-Router::get('/kandi/{slug}', function($slug) use ($detect, $kandis, $twig) {
+Router::get('/kandi/{slug}', function($slug) use ($detect, $kandis, $twig, $host) {
     if ($detect->isCrawler()) {
         $kandi = $kandis[$slug];
         $page = [
             "title" => "{$kandi["vorname"]} {$kandi["nachname"]}",
             "description" => $kandi["quote"],
-            "OG" => "/img/kandis/{$kandi["id"]}-small.jpg"
+            "OG" => "{$host}/img/kandis/{$kandi["id"]}-small.jpg"
         ];
         return $twig->render("kandi-OG.html" , ["page" => $page, "environment" => $_ENV]);
         exit;

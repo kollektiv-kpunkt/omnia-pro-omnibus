@@ -296,7 +296,7 @@
         "wahlkreis": "Affoltern",
         "listenplatz": "1",
         "beruf": "Jugendprojektleiterin, Hebammenstudentin",
-        "quote": "",
+        "quote": "Für eine Zukunft frei von Diskriminierung und mit einer Politik, die sich am Wohl der Menschen, statt den Profiten des Grosskapitals orientiert.",
         "geburtstag": {
             "tag": "09",
             "monat": "03",
@@ -455,16 +455,16 @@
         "wknr": "12",
         "bild": "d874f0a3-afff-4d54-a6ab-ceb2e0a5982b.jpg"
     },
-    "chiara-rachele-bono": {
+    "chiara-bono": {
         "id": "cecc2c8d-7ea9-4915-b746-2c8ca6d8884c",
         "bisher": false,
-        "url": "chiara-rachele-bono",
-        "vorname": "Chiara Rachele",
+        "url": "chiara-bono",
+        "vorname": "Chiara",
         "nachname": "Bono",
         "wahlkreis": "Z\u00fcrich 11+12",
         "listenplatz": "4",
         "beruf": "Studentin Englisch und Ethnologie",
-        "quote": "Ein Kanton, der seinen Einwohner*innen gerecht wird: feministisch, solidarisch, \u00f6kologisch.",
+        "quote": "Kapitalistische Dystopie beenden: Solidarität und Femnismus wählen.",
         "geburtstag": {
             "tag": "27",
             "monat": "10",
@@ -526,5 +526,29 @@
         "homepage": "",
         "wknr": "12",
         "bild": "934db78e-a5e5-4b4e-98d3-b46517d7d112.jpg"
+    },
+    "kevin-vettiger": {
+        "id": "7f50ed89-b8c9-45f3-bfb2-4fdc03d728dc",
+        "bisher": false,
+        "url": "kevin-vettiger",
+        "vorname": "Kevin",
+        "nachname": "Vettiger",
+        "wahlkreis": "Z\u00fcrich 6+10",
+        "listenplatz": "6",
+        "beruf": "Informatik Analyst & Designer",
+        "quote": "Für ein sozialgerechtes und zukunftsfähiges Zürich, das sich alle leisten können.",
+        "geburtstag": {
+            "tag": "02",
+            "monat": "04",
+            "jahr": "1992"
+        },
+        "pronomen": "Er\/Ihm",
+        "instagram": "https://www.instagram.com/kevinnedouard/",
+        "facebook": "https://www.facebook.com/kevin.vettiger",
+        "twitter": "https://twitter.com/kevinvettiger",
+        "tiktok": "",
+        "homepage": "",
+        "wknr": "4",
+        "bild": "7f50ed89-b8c9-45f3-bfb2-4fdc03d728dc.jpg"
     }
 }

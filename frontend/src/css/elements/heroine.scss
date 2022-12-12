@@ -87,7 +87,10 @@
         position: absolute;
         right: 0;
         top: 30%;
-        font-size: calc(var(--heroine-base-fontsize) * 3);
         line-height: 0.9;
+
+        h2 {
+            font-size: calc(var(--heroine-base-fontsize) * 3);
+        }
     }
 }
