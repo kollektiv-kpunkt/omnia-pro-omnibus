@@ -21,7 +21,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "10",
-        "bild": "4b903253-6801-4980-ba48-8b93331c8d60.jpg"
+        "bild": "4b903253-6801-4980-ba48-8b93331c8d60.jpg",
+        "gia_bild": "GIA07110.jpg"
     },
     "alexander-robert-herren": {
         "id": "d54ed7c0-573f-4598-8aff-76cb9affc3e8",
@@ -45,7 +46,8 @@
         "tiktok": "https:\/\/www.tiktok.com\/@maffju",
         "homepage": "https:\/\/www.alexanderherren.com",
         "wknr": "6",
-        "bild": "d54ed7c0-573f-4598-8aff-76cb9affc3e8.jpg"
+        "bild": "d54ed7c0-573f-4598-8aff-76cb9affc3e8.jpg",
+        "gia_bild": "GIA07140.jpg"
     },
     "fabien-forestier": {
         "id": "b1816939-3978-4731-b8aa-d86f428a2bb9",
@@ -69,7 +71,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "17",
-        "bild": "b1816939-3978-4731-b8aa-d86f428a2bb9.jpg"
+        "bild": "b1816939-3978-4731-b8aa-d86f428a2bb9.jpg",
+        "gia_bild": "GIA08955.jpg"
     },
     "simon-jacob": {
         "id": "f847fdf5-8667-47b1-bd8a-61ec7588d6bf",
@@ -93,7 +96,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "18",
-        "bild": "f847fdf5-8667-47b1-bd8a-61ec7588d6bf.jpg"
+        "bild": "f847fdf5-8667-47b1-bd8a-61ec7588d6bf.jpg",
+        "gia_bild": "GIA09025.jpg"
     },
     "corina-jeanmaire": {
         "id": "bd3765d7-77ec-4071-b580-e8d54ff49ce5",
@@ -117,7 +121,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "12",
-        "bild": "bd3765d7-77ec-4071-b580-e8d54ff49ce5.jpg"
+        "bild": "bd3765d7-77ec-4071-b580-e8d54ff49ce5.jpg",
+        "gia_bild": "GIA08919.jpg"
     },
     "efe-oktay-yildiz": {
         "id": "26459364-d006-43e5-9a23-5e49234657db",
@@ -141,7 +146,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "10",
-        "bild": "26459364-d006-43e5-9a23-5e49234657db.jpg"
+        "bild": "26459364-d006-43e5-9a23-5e49234657db.jpg",
+        "gia_bild": "GIA07521.jpg"
     },
     "gian-lusti": {
         "id": "0d111163-9944-4c87-8327-967723adc46c",
@@ -165,7 +171,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "12",
-        "bild": "0d111163-9944-4c87-8327-967723adc46c.jpg"
+        "bild": "0d111163-9944-4c87-8327-967723adc46c.jpg",
+        "gia_bild": "GIA07482.jpg"
     },
     "lisa-schweizer": {
         "id": "96ab7bd5-2f0f-476a-9ed9-fd4809758577",
@@ -189,7 +196,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "12",
-        "bild": "96ab7bd5-2f0f-476a-9ed9-fd4809758577.jpg"
+        "bild": "96ab7bd5-2f0f-476a-9ed9-fd4809758577.jpg",
+        "gia_bild": "GIA07013.jpg"
     },
     "anja-gada": {
         "id": "f9bbe238-6283-49ec-b0da-43c8e27dbc6c",
@@ -213,7 +221,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "12",
-        "bild": "f9bbe238-6283-49ec-b0da-43c8e27dbc6c.jpg"
+        "bild": "f9bbe238-6283-49ec-b0da-43c8e27dbc6c.jpg",
+        "gia_bild": "GIA97331.jpg"
     },
     "valeria-muster": {
         "id": "30803c60-23e1-479a-866c-eb4064c3129d",
@@ -223,7 +232,7 @@
         "nachname": "Muster",
         "wahlkreis": "Winterthur Stadt",
         "listenplatz": "4",
-        "beruf": "Blasinstrumentenreperateurin",
+        "beruf": "Blasinstrumentenreparateurin",
         "quote": "Eine junge Stimme f\u00fcr eine lebenswerte Zukunft f\u00fcr alle Generationen: chancengleich und klimagerecht!",
         "geburtstag": {
             "tag": "09",
@@ -237,7 +246,8 @@
         "tiktok": "",
         "homepage": "https:\/\/valeria-muster.ch\/",
         "wknr": "14",
-        "bild": "30803c60-23e1-479a-866c-eb4064c3129d.jpg"
+        "bild": "30803c60-23e1-479a-866c-eb4064c3129d.jpg",
+        "gia_bild": "GIA07226.jpg"
     },
     "nicola-siegrist": {
         "id": "1bf71e29-2f4b-45e9-a57b-7ad5c8b39996",
@@ -261,7 +271,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "4",
-        "bild": "1bf71e29-2f4b-45e9-a57b-7ad5c8b39996.jpg"
+        "bild": "1bf71e29-2f4b-45e9-a57b-7ad5c8b39996.jpg",
+        "gia_bild": "GIA07415.jpg"
     },
     "julia-iten": {
         "id": "894c24d4-405c-4d69-a065-c773f8611b5a",
@@ -285,7 +296,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "11",
-        "bild": "894c24d4-405c-4d69-a065-c773f8611b5a.jpg"
+        "bild": "894c24d4-405c-4d69-a065-c773f8611b5a.jpg",
+        "gia_bild": "GIA07257.jpg"
     },
     "hannah-pfalzgraf": {
         "id": "272dd58a-c582-4fe2-af78-dd6dcb5372a8",
@@ -309,7 +321,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "8",
-        "bild": "272dd58a-c582-4fe2-af78-dd6dcb5372a8.jpg"
+        "bild": "272dd58a-c582-4fe2-af78-dd6dcb5372a8.jpg",
+        "gia_bild": "GIAXXXXX.jpg"
     },
     "joelle-j\u00e4ger": {
         "id": "ad5d43cc-3334-4e46-a214-4024a94653c3",
@@ -333,7 +346,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "9",
-        "bild": "ad5d43cc-3334-4e46-a214-4024a94653c3.jpg"
+        "bild": "ad5d43cc-3334-4e46-a214-4024a94653c3.jpg",
+        "gia_bild": "GIA07054.jpg"
     },
     "myrta-grubenmann": {
         "id": "203c6d43-921c-4362-8e6b-a7f0b1d093b1",
@@ -357,7 +371,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "2",
-        "bild": "203c6d43-921c-4362-8e6b-a7f0b1d093b1.jpg"
+        "bild": "203c6d43-921c-4362-8e6b-a7f0b1d093b1.jpg",
+        "gia_bild": "GIA07303.jpg"
     },
     "silas-muggli": {
         "id": "e12b85e4-0356-40d2-9845-cfb590580f65",
@@ -381,7 +396,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "11",
-        "bild": "e12b85e4-0356-40d2-9845-cfb590580f65.jpg"
+        "bild": "e12b85e4-0356-40d2-9845-cfb590580f65.jpg",
+        "gia_bild": "GIAXXXXX.jpg"
     },
     "allan-boss": {
         "id": "cbaf7f5a-39b2-43af-b3fe-38707d5d514f",
@@ -405,7 +421,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "18",
-        "bild": "cbaf7f5a-39b2-43af-b3fe-38707d5d514f.jpg"
+        "bild": "cbaf7f5a-39b2-43af-b3fe-38707d5d514f.jpg",
+        "gia_bild": "GIA09046.jpg"
     },
     "leonardo-bosshard": {
         "id": "1f93dcab-2e73-4a8c-879b-6dca614db998",
@@ -429,7 +446,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "10",
-        "bild": "1f93dcab-2e73-4a8c-879b-6dca614db998.jpg"
+        "bild": "1f93dcab-2e73-4a8c-879b-6dca614db998.jpg",
+        "gia_bild": "GIA07071.jpg"
     },
     "leandra-columberg": {
         "id": "d874f0a3-afff-4d54-a6ab-ceb2e0a5982b",
@@ -453,7 +471,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "12",
-        "bild": "d874f0a3-afff-4d54-a6ab-ceb2e0a5982b.jpg"
+        "bild": "d874f0a3-afff-4d54-a6ab-ceb2e0a5982b.jpg",
+        "gia_bild": "GIA07447.jpg"
     },
     "chiara-bono": {
         "id": "cecc2c8d-7ea9-4915-b746-2c8ca6d8884c",
@@ -464,7 +483,7 @@
         "wahlkreis": "Z\u00fcrich 11+12",
         "listenplatz": "4",
         "beruf": "Studentin Englisch und Ethnologie",
-        "quote": "Kapitalistische Dystopie beenden: Solidarität und Femnismus wählen.",
+        "quote": "Kapitalistische Dystopie beenden: Solidarität und Feminismus wählen.",
         "geburtstag": {
             "tag": "27",
             "monat": "10",
@@ -477,7 +496,8 @@
         "tiktok": "",
         "homepage": "http:\/\/chiara-bono.ch\/",
         "wknr": "6",
-        "bild": "cecc2c8d-7ea9-4915-b746-2c8ca6d8884c.jpg"
+        "bild": "cecc2c8d-7ea9-4915-b746-2c8ca6d8884c.jpg",
+        "gia_bild": "GIA07178.jpg"
     },
     "laura-fischer": {
         "id": "506b5171-cad0-4af1-a6ce-c551395d3016",
@@ -501,7 +521,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "17",
-        "bild": "506b5171-cad0-4af1-a6ce-c551395d3016.jpg"
+        "bild": "506b5171-cad0-4af1-a6ce-c551395d3016.jpg",
+        "gia_bild": "GIA07380.jpg"
     },
     "nadia-kuhn": {
         "id": "934db78e-a5e5-4b4e-98d3-b46517d7d112",
@@ -525,7 +546,8 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "12",
-        "bild": "934db78e-a5e5-4b4e-98d3-b46517d7d112.jpg"
+        "bild": "934db78e-a5e5-4b4e-98d3-b46517d7d112.jpg",
+        "gia_bild": "GIA08982.jpg"
     },
     "kevin-vettiger": {
         "id": "7f50ed89-b8c9-45f3-bfb2-4fdc03d728dc",
@@ -549,6 +571,32 @@
         "tiktok": "",
         "homepage": "",
         "wknr": "4",
-        "bild": "7f50ed89-b8c9-45f3-bfb2-4fdc03d728dc.jpg"
+        "bild": "7f50ed89-b8c9-45f3-bfb2-4fdc03d728dc.jpg",
+        "gia_bild": "GIAXXXXX.jpg"
+    },
+    "samuel-wenk": {
+        "id": "5a9e50c5-ba06-4861-9cdb-10e3fe651436",
+        "bisher": false,
+        "url": "samuel-wenk",
+        "vorname": "Samuel",
+        "nachname": "Wenk",
+        "wahlkreis": "Dietikon",
+        "listenplatz": "4",
+        "beruf": "Jurist, Velokurier",
+        "quote": "Für Menschen statt Profite.",
+        "geburtstag": {
+            "tag": "1",
+            "monat": "05",
+            "jahr": "1998"
+        },
+        "pronomen": "Er\/Ihm",
+        "instagram": "https://www.instagram.com/samuel.wenk/",
+        "facebook": "https://www.facebook.com/samuel.wenk",
+        "twitter": "https://twitter.com/wenksam",
+        "tiktok": "",
+        "homepage": "",
+        "wknr": "7",
+        "bild": "5a9e50c5-ba06-4861-9cdb-10e3fe651436.jpg",
+        "gia_bild": "GIAXXXXX.jpg"
     }
 }
