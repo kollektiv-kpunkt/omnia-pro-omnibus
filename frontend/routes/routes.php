@@ -20,7 +20,13 @@ $host = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "htt
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 
 $kandis = json_decode(file_get_contents(__DIR__ . "/../data/kandis.json"), true);
+array_multisort(
+        array_column($kandis, 'bisher'), SORT_DESC,
+        array_column($kandis, 'wknr'), SORT_ASC,
+        array_column($kandis, 'listenplatz'), SORT_ASC,
+        $kandis);
 $topics = json_decode(file_get_contents(__DIR__ . "/../data/topics.json"), true);
+$wahlkreise = json_decode(file_get_contents(__DIR__ . "/../data/wahlkreise.json"), true);
 
 
 Router::get('/', function() use ($twig, $kandis, $topics) {
@@ -46,19 +52,14 @@ Router::get('/themen/{topic}', function($topic) use ($twig, $topics, $parsedown,
     return $twig->render("topic.html" , ["page" => $page, "environment" => $_ENV, "topics" => $topics, "topic" => $topic, "content" => $content, "url" => $actual_link]);
 });
 
-Router::get('/kandis', function() use ($twig, $kandis, $topics) {
+Router::get('/kandis', function() use ($twig, $kandis, $topics, $wahlkreise) {
     $page = [
         "title" => "Unser Team für Zürich",
         "description" => "Wir setzen uns im ganzen Kanton Zürich für konsequent Linke Politik ein. Es gibt kein ruhiges Hinterland und noch zu wenig linke Stadtvertretungen! Daher am 12. Februar folgende JUSO’s auf der SP-Liste 2 wählen.",
         "OG" => "/img/og/default.png",
         "menu_color" => "white"
     ];
-    array_multisort(
-        array_column($kandis, 'bisher'), SORT_DESC,
-        array_column($kandis, 'wknr'), SORT_ASC,
-        array_column($kandis, 'listenplatz'), SORT_ASC,
-        $kandis);
-    return $twig->render("kandis.html" , ["page" => $page, "environment" => $_ENV, "kandis" => $kandis, "topics" => $topics]);
+    return $twig->render("kandis.html" , ["page" => $page, "environment" => $_ENV, "kandis" => $kandis, "topics" => $topics, "wahlkreise" => $wahlkreise]);
 });
 
 Router::get('/themen', function() use ($twig, $topics) {
@@ -127,4 +128,16 @@ Router::get('/material-bestellen', function() use ($twig, $topics) {
     include __DIR__ . "/../rendering/wh-form.php";
     $form = ob_get_clean();
     return $twig->render("material-bestellen.html" , ["page" => $page, "environment" => $_ENV, "topics" => $topics, "form" => $form]);
+});
+
+
+Router::get('/part/kandis/', function() use ($twig, $kandis) {
+    $wahlkreise = (isset($_GET["wahlkreise"]) ? explode(",", $_GET["wahlkreise"]) : explode(",", "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"));
+    $selected_kandis = [];
+    foreach ($kandis as $kandi) {
+        if (in_array($kandi["wknr"], $wahlkreise)) {
+            $selected_kandis[] = $kandi;
+        }
+    }
+    return $twig->render("partial/kandigrid.html" , ["environment" => $_ENV, "kandis" => $selected_kandis]);
 });

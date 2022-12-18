@@ -8,11 +8,32 @@ noch zu wenig linke Stadtvertretungen! Deshalb treten wir mit diesen Kandidieren
 "spacer_height" : "4rem"
 } only %}
 
-{# <div class="opo-constituency-selector-wrapper lg-container flex justify-end">
-    <a href="#"
-        class="opo-topic-heroine-read-more mt-4 opo-graph text-4xl flex items-center gap-x-4 bg-accent text-white px-2 py-1">Alle
-        Wahlkreise <i data-feather="chevron-down" class="h-8 w-8"></i></a>
-</div> #}
+<div class="opo-constituency-selector-wrapper lg-container flex justify-end">
+    <div class="opo-constituency-selector-button relative" data-constituencies="[]">
+        <button
+            class="opo-constituency-selector opo-graph text-4xl flex items-center gap-x-4 bg-accent text-white px-2 py-1">
+            Alle
+            Wahlkreise <i data-feather="chevron-down" class="h-8 w-8"></i>
+        </button>
+        <div class="opo-constituencies-wrapper absolute max-h-0 overflow-hidden w-full z-10 bg-white">
+            <div class="opo-constituencies-inner max-h-64 overflow-y-auto">
+                {% for wahlkreis in wahlkreise %}
+                <button class="opo-constituency flex justify-between items-center p-2 w-full"
+                    data-constituency-id="{{wahlkreis.id}}">
+                    {{wahlkreis.name}}
+                    <i data-feather="check" class="hidden"></i>
+                </button>
+                {% endfor %}
+                <div class="opo-constituency-placeholder h-10"></div>
+                <button
+                    class="opo-constituencies-filter-button p-2 opo-graph bg-accent border-white border-2 text-white absolute bottom-0 left-0 w-full flex justify-center items-center gap-x-2">
+                    Filtern
+                    <i data-feather="search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% include ("/elements/spacer.html") with {height: "2rem"} only %}
 

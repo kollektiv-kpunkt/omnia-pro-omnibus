@@ -157,3 +157,10 @@
         }
     }
 }
+
+.opo-constituency-selector-wrapper {
+
+    .opo-constituencies-wrapper {
+        transition: 0.3s ease-in-out max-height;
+    }
+}

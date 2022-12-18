@@ -1,0 +1,74 @@
+{
+  "zueri-1+2": {
+    "id": 1,
+    "name": "Zürich 1&2"
+  },
+  "zueri-3+9": {
+    "id": 2,
+    "name": "Zürich 3&9"
+  },
+  "zueri-4+5": {
+    "id": 3,
+    "name": "Zürich 4&5"
+  },
+  "zueri-6+10": {
+    "id": 4,
+    "name": "Zürich 6&10"
+  },
+  "zueri-7+8": {
+    "id": 5,
+    "name": "Zürich 7&8"
+  },
+  "zueri-11+12": {
+    "id": 6,
+    "name": "Zürich 11&12"
+  },
+  "dietikon": {
+    "id": 7,
+    "name": "Dietikon"
+  },
+  "affoltern": {
+    "id": 8,
+    "name": "Affoltern"
+  },
+  "horgen": {
+    "id": 9,
+    "name": "Horgen"
+  },
+  "meilen": {
+    "id": 10,
+    "name": "Meilen"
+  },
+  "hinwil": {
+    "id": 11,
+    "name": "Hinwil"
+  },
+  "uster": {
+    "id": 12,
+    "name": "Uster"
+  },
+  "pfaeffikon": {
+    "id": 13,
+    "name": "Pfäffikon"
+  },
+  "winterthur-stadt": {
+    "id": 14,
+    "name": "Winterthur Stadt"
+  },
+  "winterthur-land": {
+    "id": 15,
+    "name": "Winterthur Land"
+  },
+  "andelfingen": {
+    "id": 16,
+    "name": "Andelfingen"
+  },
+  "buelach": {
+    "id": 17,
+    "name": "Bülach"
+  },
+  "Dielsdorf": {
+    "id": 18,
+    "name": "Dielsdorf"
+  }
+}
